@@ -1,4 +1,4 @@
-extern crate rustc_serialize;
+extern crate serde;
 extern crate dylib;
 
 use std::env;

@@ -5,11 +5,13 @@ authors = ["Simon Wollwage"]
 
 [dependencies]
 bitflags = "0.5.0"
-rustc-serialize = "*"
-log = "*"
-num = "*"
-libc = "*"
-dylib = "*"
+serde = "1.0.32"
+serde_json = "1.0.11"
+serde_derive = "1.0.32"
+log = "0.4.1"
+num = "0.1.32"
+libc = "0.2.10"
+dylib = "0.0.3"
 
 [lib]
 name = "wtftw_core"
